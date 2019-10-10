@@ -12,13 +12,21 @@ nav ul li{
 	display: inline-block;
 }
 nav ul li a{
-	text-decoration: none;color: #626262;font-size: 15px;padding: 0px 25px; border-right: 2px solid #626262;font-family: 'PT Sans', sans-serif;
+	text-decoration: none;color: #626262;font-size: 15px;padding: 0px 25px; border-right: 2px solid #7d7d7d;font-family: 'PT Sans', sans-serif;
 }
 nav ul li:last-child a{
 	padding-right: 0; border-right: none;
 }
 nav ul li a:hover, .menu-activo{
 color: #00aeff;
+}
+#buscador-header form button{
+	border: none;
+	background: #ffffff;
+	color: #c1c1c1;
+}
+#buscador-header form input{
+	border: none;
 }
 #header-lower{
 	padding-top: 15px;
@@ -31,6 +39,7 @@ color: #00aeff;
 #header-lower nav ul li a{
 	padding: 0px 20px;
 	border: 0px solid #ccc;
+	font-family: 'PT Sans', sans-serif;
 }
 #header-lower nav ul span{
 	padding: 20px 65px;
