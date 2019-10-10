@@ -54,9 +54,9 @@ color: #00aeff;
 	padding-bottom: 65px;
 	width: 100%;
 	height: 630px;
-	border-bottom: 0px solid #000000;
+	border-bottom: 0px solid;
 	background: #9fa6ed;
-		padding: 17px;
+	padding: 17px;
 }
 #menu-one nav ul span{
 	padding: 0px 20px;
@@ -234,11 +234,13 @@ color: #00aeff;
 	background: #31333e;
 }
 .tres{
+	font-family: 'PT Sans', sans-serif;
 	color: #ffffff;
 	padding: 0px 15px;
 	border: 0px solid #e70811;
 }
 .cuatro{
+	font-family: 'PT Sans', sans-serif;
 	color: #ffffff;
 	padding: 0px 15px;
 	font-size: 11px;
@@ -252,6 +254,7 @@ color: #00aeff;
 	float: left;
 }
 #menu-final nav ul li a{
+	font-family: 'PT Sans', sans-serif;
 	color: #ffffff;
 	float: left;
 	padding: 0px 15px;
@@ -264,6 +267,9 @@ color: #00aeff;
 	border: 0px solid #e70811;
 	float: left;
 	padding-right: 50px;
+}
+#icons form button{
+	border: none;
 }
 .cinco{
 	padding-left: 108px
