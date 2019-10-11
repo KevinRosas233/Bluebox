@@ -59,12 +59,15 @@ color: #00aeff;
 	padding: 17px;
 }
 #menu-one nav ul span{
-	padding: 0px 20px;
 	font-size: 27px;
 	color: #ffffff;
 	border: 0px solid #ccc;
-	padding-left: 120px;
+	padding-left: 115px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	font-family: myriad-pro, sans-serif;
+	padding: 10px 113px;
 }
 #categoria{
 	width: 100%;
